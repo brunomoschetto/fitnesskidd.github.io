@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("images/wallpaper_gym.jpg"); /* ruta a imagen de fondo */
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+
+.opening {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* <- Podés eliminar el comentario anterior para agregarle un color de fondo a todo el contenido */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  color: #fff;
+  padding: 25px 0;
+}
+
+h2 {
+  font-size: 24px;
+  color: #fff;
+  padding: 20px 30px 30px 30px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #fff;
+  padding: 80px 20px 20px 20px;
+}
+
+.entrenamiento_personalizado {
+  color: yellow;
+  padding: 20px 20px 20px 20px;
+}
