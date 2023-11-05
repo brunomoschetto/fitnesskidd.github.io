@@ -8,36 +8,41 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Hola comentario */
+/* ------------------ starts "opening" --------------- */
 
 .opening {
-  /* background-color: rgba(255, 255, 255, 0.8); */
-  /* <- Podés eliminar el comentario anterior para agregarle un color de fondo a todo el contenido */
   padding: 20px;
   margin: 20px;
   border-radius: 10px;
   text-align: center;
 }
 
-h1 {
-  font-size: 48px;
+.opening h1 {
+  font-size: 85px;
   color: #fff;
-  padding: 25px 0;
+  padding: 25px 0px 0px 0px;
 }
 
-h2 {
+.opening h2 {
   font-size: 24px;
   color: #fff;
-  padding: 20px 30px 30px 30px;
+  padding: 0px 10px 10px 10px;
 }
 
-h3 {
-  font-size: 20px;
+.opening h3 {
+  font-size: 35px;
   color: #fff;
   padding: 80px 20px 20px 20px;
 }
 
-.entrenamiento_personalizado {
+.yellow {
   color: yellow;
   padding: 20px 20px 20px 20px;
+}
+
+/* ------------------ ends "opening" --------------- */
+
+/* ------------------ starts "about me" --------------- */
+
+.about_me h1 {
 }
