@@ -20,29 +20,40 @@ body {
 .opening h1 {
   font-size: 85px;
   color: #fff;
-  padding: 25px 0px 0px 0px;
+}
+
+.opening .subtitle {
+  font-size: 24px;
+  color: #fff;
 }
 
 .opening h2 {
-  font-size: 24px;
-  color: #fff;
-  padding: 0px 10px 10px 10px;
-}
-
-.opening h3 {
   font-size: 35px;
   color: #fff;
-  padding: 80px 20px 20px 20px;
 }
 
-.yellow {
+.opening .yellow {
   color: yellow;
-  padding: 20px 20px 20px 20px;
 }
 
 /* ------------------ ends "opening" --------------- */
 
 /* ------------------ starts "about me" --------------- */
 
-.about_me h1 {
+.about_me {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.about_me h2 {
+  font-size: 35px;
+  color: #fff;
+}
+
+.about_me p {
+  font-size: 20px;
+  color: #fff;
+  background-color: green;
 }
