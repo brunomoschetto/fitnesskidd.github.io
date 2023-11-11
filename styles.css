@@ -1,7 +1,10 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  background-image: url("images/wallpaper_gym.jpg"); /* ruta a imagen de fondo */
+  background-image: url("images/wallpaper_gym.png"); /* ruta a imagen de fondo */
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -19,22 +22,33 @@ body {
   text-align: center;
 }
 
-.opening h1 {
+.opening_up {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.opening_down {
+  display: flex;
+  flex-direction: column;
+}
+
+.opening_up h1 {
   font-size: 85px;
   color: #fff;
 }
 
-.opening .subtitle {
+.opening_up .subtitle {
   font-size: 24px;
   color: #fff;
 }
 
-.opening h2 {
+.opening_down h2 {
   font-size: 35px;
   color: #fff;
 }
 
-.opening .yellow {
+.opening_down .yellow {
   color: yellow;
 }
 
