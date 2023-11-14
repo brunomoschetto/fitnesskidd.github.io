@@ -92,3 +92,71 @@ body {
   color: yellow;
   font-size: 24px;
 }
+
+.my_journey p {
+  font-size: 20px;
+  color: #fff;
+  background-color:blueviolet;
+}
+
+.my_journey span {
+  color: yellow;
+  font-weight: bold;
+}
+
+/* ------------------ ends "my_journey" --------------- */
+
+/* ------------------ starts "asesoria_online" --------------- */
+
+.asesoria_online {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.asesoria_online h2 {
+  font-size: 35px;
+  color: #fff;
+}
+
+.asesoria_online span {
+  color: yellow;
+  font-weight: bold;
+}
+
+.asesoria_online p {
+  font-size: 20px;
+  color: #fff;
+  background-color:aquamarine;
+}
+
+.asesoria_online h3 {
+  font-size: 35px;
+  color: #fff;
+}
+
+/* ------------------ ends "asesoria_online" --------------- */
+
+/* ------------------ starts "casos_exito" --------------- */
+
+.casos_exito {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.casos_exito h2 {
+  font-size: 35px;
+  color: #fff;
+}
+
+.casos_exito span {
+  color: yellow;
+  font-weight: bold;
+}
+
+.casos_exito p {
+  font-size: 20px;
+  color: #fff;
+  background-color:blue;
+}
