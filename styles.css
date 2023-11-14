@@ -40,7 +40,7 @@ body {
 
 /* ------------------ ends "opening" --------------- */
 
-/* ------------------ starts "about me" --------------- */
+/* ------------------ starts "about_me" --------------- */
 
 .about_me {
   display: flex;
@@ -57,4 +57,24 @@ body {
   font-size: 20px;
   color: #fff;
   background-color: green;
+}
+
+/* ------------------ ends "about_me" --------------- */
+
+/* ------------------ starts "my_journey" --------------- */
+
+.my_journey {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.my_journey h2 {
+  font-size: 35px;
+  color: #fff;
+}
+
+.my_journey .yellow {
+  color: yellow;
+  font-size: 24px;
 }
