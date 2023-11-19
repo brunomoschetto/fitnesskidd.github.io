@@ -96,7 +96,7 @@ body {
 .my_journey p {
   font-size: 20px;
   color: #fff;
-  background-color:blueviolet;
+  background-color: blueviolet;
 }
 
 .my_journey span {
@@ -127,7 +127,7 @@ body {
 .asesoria_online p {
   font-size: 20px;
   color: #fff;
-  background-color:aquamarine;
+  background-color: aquamarine;
 }
 
 .asesoria_online h3 {
@@ -158,5 +158,154 @@ body {
 .casos_exito p {
   font-size: 20px;
   color: #fff;
-  background-color:blue;
+  background-color: blue;
 }
+
+/* ------------------ ends "asesoria_online" --------------- */
+
+/* ------------------ starts "medios_pago" --------------- */
+
+.medios_pago {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.medios_pago h2 {
+  font-size: 35px;
+  color: #fff;
+}
+
+.medios_pago span {
+  color: yellow;
+  font-weight: bold;
+}
+
+.medios_pago p {
+  font-size: 20px;
+  color: #fff;
+  background-color: blue;
+}
+
+.medios_pago .logos {
+  display: flex;
+  flex-direction: row;
+}
+/* ------------------ ends "medios_pago" --------------- */
+
+/* ------------------ starts "garantia" --------------- */
+
+.garantia {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.garantia h2 {
+  font-size: 35px;
+  color: #fff;
+}
+
+.garantia span {
+  color: yellow;
+  font-weight: bold;
+}
+
+.garantia p {
+  font-size: 20px;
+  color: #fff;
+  background-color: red;
+}
+
+.garantia .logos {
+  display: flex;
+  flex-direction: row;
+}
+
+/* ------------------ ends "garantia" --------------- */
+
+/* ------------------ starts "precio" --------------- */
+
+.precio {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.precio h2 {
+  font-size: 35px;
+  color: #fff;
+}
+
+.precio span {
+  color: yellow;
+  font-weight: bold;
+}
+
+/* ----- column1 ----- */
+
+.column1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.column1 h3 {
+  font-size: 25px;
+  color: #fff;
+}
+
+.column1 p {
+  font-size: 18px;
+  color: #fff;
+}
+
+.column1 span {
+  color: yellow;
+  font-weight: bold;
+}
+
+/* ----- column2 ----- */
+
+.column2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.column2 h3 {
+  font-size: 25px;
+  color: #fff;
+}
+
+.column2 p {
+  font-size: 18px;
+  color: #fff;
+}
+
+.column2 span {
+  color: yellow;
+  font-weight: bold;
+}
+
+/* ----- column3 ----- */
+
+.column3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.column3 h3 {
+  font-size: 25px;
+  color: #fff;
+}
+
+.column3 p {
+  font-size: 18px;
+  color: #fff;
+}
+
+.column3 span {
+  color: yellow;
+  font-weight: bold;
+}
+
+/* ------------------ starts "precio" --------------- */
