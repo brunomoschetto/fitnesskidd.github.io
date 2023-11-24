@@ -14,23 +14,78 @@ body {
   gap: 60px;
 }
 
+/* ------------------ starts navbar styles --------------- */
+
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  
+  list-style: none;
+  margin: 0; 
+  background: deepskyblue;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover {
+  background: #1565C0;
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+
+/* ------------------ ends navbar styles --------------- */
+
 /* ------------------ starts "opening" --------------- */
 
 .opening {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   text-align: center;
+  gap: 150px;
 }
 
 .opening_up {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  background-color: rgba(36, 35, 35, 0.507);
 }
 
 .opening_down {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  background-color: rgba(36, 35, 35, 0.507);
 }
 
 .opening_up h1 {
@@ -60,6 +115,8 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: space-between;
+  gap: 15px;
 }
 
 .about_me h2 {
@@ -81,6 +138,8 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: space-between;
+  gap: 15px;
 }
 
 .my_journey h2 {
@@ -112,6 +171,8 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: space-between;
+  gap: 15px;
 }
 
 .asesoria_online h2 {
@@ -143,6 +204,8 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: space-between;
+  gap: 15px;
 }
 
 .casos_exito h2 {
@@ -169,6 +232,8 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: space-around;
+  gap: 15px;
 }
 
 .medios_pago h2 {
@@ -190,6 +255,9 @@ body {
 .medios_pago .logos {
   display: flex;
   flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  gap: 20px;
 }
 /* ------------------ ends "medios_pago" --------------- */
 
@@ -199,6 +267,8 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: space-between;
+  gap: 15px;
 }
 
 .garantia h2 {
@@ -230,6 +300,8 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: space-between;
+  gap: 15px;
 }
 
 .precio h2 {
@@ -308,4 +380,4 @@ body {
   font-weight: bold;
 }
 
-/* ------------------ starts "precio" --------------- */
+/* ------------------ ends "precio" --------------- */
