@@ -20,10 +20,13 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
-  
   list-style: none;
   margin: 0; 
-  background: deepskyblue;
+  background: rgba(255, 136, 0, 0.322);
+  position: fixed; /* Agregado para que la barra sea fija */
+  width: 100%; /* Ancho del 100% para ocupar toda la pantalla */
+  top: 0; /* Coloca la barra en la parte superior */
+  z-index: 1000; /* Asegura que la barra esté sobre otros elementos */
 }
 
 .navigation a {
@@ -90,6 +93,7 @@ body {
 
 .opening_up h1 {
   font-size: 85px;
+  margin-top: 50px;
   color: #fff;
 }
 
