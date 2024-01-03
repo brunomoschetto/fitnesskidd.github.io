@@ -385,3 +385,32 @@ body {
 }
 
 /* ------------------ ends "precio" --------------- */
+
+/* ------------------ starts "requisitos" --------------- */
+
+.requisitos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.requisitos h2 {
+  text-align: center;
+  font-size: 35px;
+  color: #fff;
+}
+
+.requisitos h3 {
+  color: yellow;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.requisitos p {
+  font-size: 15px;
+  color: #fff;
+  background-color: rgb(247, 0, 255);
+}
+
+/* ------------------ ends "requisitos" --------------- */
