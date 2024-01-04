@@ -414,3 +414,36 @@ body {
 }
 
 /* ------------------ ends "requisitos" --------------- */
+
+/* ------------------ starts "FAQs" --------------- */
+
+.FAQs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.FAQs span {
+  color: yellow;
+}
+
+.FAQs h2 {
+  text-align: center;
+  font-size: 35px;
+  color: #fff;
+}
+
+.FAQs h3 {
+  color: yellow;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.FAQs p {
+  font-size: 15px;
+  color: #fff;
+  background-color: rgb(43, 255, 0);
+}
+
+/* ------------------ ends "FAQs" --------------- */
