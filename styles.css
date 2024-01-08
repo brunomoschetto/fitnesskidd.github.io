@@ -447,3 +447,38 @@ body {
 }
 
 /* ------------------ ends "FAQs" --------------- */
+
+/* ------------------ starts "medios_contacto" --------------- */
+
+.medios_contacto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.medios_contacto h2 {
+  font-size: 35px;
+  color: #fff;
+}
+
+.medios_contacto span {
+  color: yellow;
+  font-weight: bold;
+}
+
+.medios_contacto p {
+  font-size: 20px;
+  color: #fff;
+  background-color: rgb(229, 255, 0);
+}
+
+.medios_contacto .rrss {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+/* ------------------ ends "medios_contacto" --------------- */
