@@ -1,0 +1,24 @@
+/* Commons */
+@import url(/src/styles/common/common.css);
+
+/* Variables */
+@import url(/src/styles/common/variables.css);
+
+/* Components */
+@import url(/src/styles/components/navbar.css);
+
+body {
+  background-image: url(/src/images/background_image.jpeg);
+}
+
+header {
+  padding: 1em;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+header h1 {
+  color: var(--color-primary);
+  font-size: var(--size-text-title);
+}
