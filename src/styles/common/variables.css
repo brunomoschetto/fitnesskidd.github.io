@@ -4,5 +4,7 @@
   --color-text: #fff;
   --color-hover: #980404;
 
-  --size-text-title: 35px;
+  --text-size: 14px;
+  --text-size-title: calc(var(var(--text-size) * 3));
+  --text-size-subtitle: calc(var(var(--text-size) * 2));
 }

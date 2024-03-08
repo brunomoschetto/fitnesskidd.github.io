@@ -21,3 +21,10 @@
 .navigation a:hover {
   background: var(--color-hover);
 }
+
+.navigation img {
+  margin-right: auto; /* Empuja el logo hacia la esquina superior izquierda */
+  margin-left: 20px; /* Espacio entre el logo y los elementos de navegación */
+  max-height: 100%; /* Ajusta la altura máxima de la imagen */
+  max-width: 100%; /* Ajusta el ancho máximo de la imagen */
+}

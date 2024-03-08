@@ -6,21 +6,31 @@
 
 /* Components */
 @import url(../components/navbar.css);
+@import url(../components/btn.css);
 
 body {
   background-image: url(../../images/background_image.jpeg);
   background-size: cover;
   padding-block-start: 5em;
-}
-
-header {
-}
-
-#opening {
   text-align: center;
 }
 
 #opening h1 {
   color: var(--color-primary);
-  font-size: var(--size-text-title);
+  font-size: var(--text-size-title);
+}
+
+#opening h2 {
+  color: var(--color-text);
+  font-size: var(--text-size-subtitle);
+}
+
+.opening_2 h2 {
+  color: var(--color-primary);
+  font-size: var(--text-size-title);
+}
+
+.opening_2 p {
+  color: var(--color-text);
+  font-size: var(--text-size);
 }
