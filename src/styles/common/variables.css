@@ -1,10 +1,17 @@
 :root {
-  --color-primary: #f00;
-  --color-background: #000;
+  --color-primary: #f50808;
+  --color-background: rgba(0, 0, 0, 0.75);
   --color-text: #fff;
   --color-hover: #980404;
+  --max-width: 1000px;
 
   --text-size: 14px;
-  --text-size-title: calc(var(var(--text-size) * 3));
-  --text-size-subtitle: calc(var(var(--text-size) * 2));
+  --text-size-title: calc(var(--text-size) * 3);
+  --text-size-subtitle: calc(var(--text-size) * 2);
+}
+
+@media (min-width: 768px) {
+  :root {
+    /* --color-primary: #08f530; */
+  }
 }
