@@ -1,7 +1,9 @@
 :root {
   --color-primary: #f50808;
-  --color-background: rgba(0, 0, 0, 0.75);
-  --color-text: #fff;
+  --color-background: #000000;
+  --color-background-alt: #ffffff;
+  --color-text: #ffffff;
+  --color-text-alt: #000000;
   --color-hover: #980404;
   --max-width: 1000px;
 

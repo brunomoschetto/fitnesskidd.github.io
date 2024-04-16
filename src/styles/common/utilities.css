@@ -1,0 +1,23 @@
+.block {
+  padding: 3rem;
+}
+
+.block--black {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.block--white {
+  background-color: var(--color-background-alt);
+  color: var(--color-text-alt);
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.flex > * {
+  width: 100%;
+}
