@@ -80,3 +80,37 @@ body {
   color: var(--color-text-alt);
   display: block;
 }
+
+#selling_text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  box-sizing: border-box;
+}
+
+#plan_description h2 {
+  color: var(--color-primary);
+  font-size: var(--text-size-title);
+}
+
+#plan_description h2 small {
+  font-size: 0.8em;
+  color: var(--color-text-alt);
+  display: block;
+}
+
+#plan_description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  box-sizing: border-box;
+}
+
+#plan_description .subtitle {
+  color: var(--color-primary);
+  font-size: 0.8em;
+}
