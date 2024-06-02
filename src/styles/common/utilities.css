@@ -14,10 +14,40 @@
 
 .flex {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 2rem;
 }
 
 .flex > * {
   width: 100%;
+}
+
+.flex--reverse{
+  flex-direction: column-reverse;
+}
+
+.line--spacing {
+  line-height: 1.5;
+  margin-bottom: 0.3rem;
+}
+
+.line--spacing > div {
+  margin-bottom: 0.9rem;
+  position: relative;
+}
+
+.only-desktop {
+  visibility: hidden;
+}
+
+@media (min-width: 768px){
+  .flex {
+    flex-direction: row;
+  }
+  .flex--reverse{
+    flex-direction: row-reverse;
+  }
+  .only-desktop{
+    visibility: visible;
+  }
 }

@@ -1,0 +1,32 @@
+.plan {
+    border: 2px solid var(--color-primary);
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #0000000f;
+    box-shadow: 0 0 1rem #00000033;
+    margin-top: 3rem;
+    overflow: hidden;
+}
+
+.plan p {
+    line-height: 1.5;
+    margin-bottom: 0.3rem;
+}
+
+.plan > div {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.plan--highlight {
+    border-color: black;
+    margin-top: 2rem;
+    background: url(../../images/photo_example_2.jpg) no-repeat center center;
+    position: relative;
+}
+
+.plan--highlight .cover {
+    position: absolute;
+    inset: 0;
+    background-color: #ffffff66;
+}
