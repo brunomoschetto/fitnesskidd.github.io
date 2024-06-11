@@ -5,11 +5,13 @@
 .block--black {
   background-color: var(--color-background);
   color: var(--color-text);
+  overflow: hidden;
 }
 
 .block--white {
   background-color: var(--color-background-alt);
   color: var(--color-text-alt);
+  overflow: hidden;
 }
 
 .flex {
@@ -28,7 +30,6 @@
 
 .line--spacing {
   line-height: 1.5;
-  margin-bottom: 0.3rem;
 }
 
 .line--spacing > div {
@@ -37,7 +38,7 @@
 }
 
 .only-desktop {
-  visibility: hidden;
+  display: none;
 }
 
 @media (min-width: 768px){
@@ -48,6 +49,6 @@
     flex-direction: row-reverse;
   }
   .only-desktop{
-    visibility: visible;
+    display: initial;
   }
 }

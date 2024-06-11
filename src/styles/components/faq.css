@@ -1,0 +1,14 @@
+.faq {
+    max-width: var(--max-width);
+    padding-block: 3rem;
+    margin-inline: auto;
+    text-align: left;
+}
+
+.faq details {
+    margin-bottom: 1rem;
+}
+
+.faq summary {
+    font-weight: 700;
+}
