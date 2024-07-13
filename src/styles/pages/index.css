@@ -32,8 +32,8 @@ body {
 
 #opening h1 {
   color: var(--color-primary);
-  /* font-size: var(--text-size-title); */
-  font-size: 3vw; /* 3% del ancho del navegador */
+  font-size: var(--text-size-title);
+  /* font-size: 3vw; 3% del ancho del navegador */
   max-width: 1000px;
   font-weight: 700;
   line-height: 1.5;
@@ -44,7 +44,11 @@ body {
   font-size: var(--text-size-subtitle);
   max-width: var(--max-width);
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1.25;
+}
+
+#opening span {
+  color: var(--color-primary);
 }
 
 #join {
@@ -78,8 +82,7 @@ body {
 }
 
 #plans h2 small {
-  font-size: 0.8em;
-  color: var(--color-text-alt);
+  color: var(--color-text);
   display: block;
 }
 
@@ -88,6 +91,7 @@ body {
   justify-content: center;
   gap: 2rem;
   box-sizing: border-box;
+  padding-top: 3px;
 }
 
 #plan_description h2 {
@@ -144,25 +148,48 @@ body {
   justify-content: center;
   gap: 0.7rem;
   box-sizing: border-box;
+  padding: 1rem;
+}
+
+#call_to_action h2 {
+  font-size: var(--text-size-title);
+}
+
+#call_to_action h2 strong {
+  color: var(--color-primary);
 }
 
 #call_to_action p {
   color: var(--color-text);
-  font-size: var(--text-size-subtitle);
+  font-size: (var(--text-size)*0.05%);
   max-width: var(--max-width);
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 2rem;
 }
 
-#warning p {
+#call_to_action p strong {
+  color: var(--color-primary);
+}
+
+/* #warning p {
   color: var(--color-text);
   font-size: var(--text-size-subtitle);
   text-align: center;
-}
+} */
 
 #faq {
   align-items: center;
   justify-content: center;
   gap: 2rem;
   box-sizing: border-box;
+}
+
+#faq div h2 {
+  font-size: var(--text-size-title);
+  color: var(--color-text-alt);
+}
+
+#faq div h2 strong {
+  font-size: var(--text-size-title);
+  color: var(--color-primary);
 }

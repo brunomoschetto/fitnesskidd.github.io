@@ -1,7 +1,7 @@
 .btn {
   background-color: var(--color-primary);
   border: none;
-  color: var(--color-text);
+  color: var(--color-text-alt);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -22,4 +22,9 @@
 
 .btn--important:hover {
   background-color: var(--color-hover-2);
+}
+
+.btn a {
+  text-decoration: none;
+  color: inherit;
 }
