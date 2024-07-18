@@ -1,8 +1,29 @@
+#faq {
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+  
+  #faq div h2 {
+    font-size: var(--text-size-title);
+    color: var(--color-text-alt);
+  }
+  
+  #faq div h2 strong {
+    font-size: var(--text-size-title);
+    background-color: var(--color-primary);
+  }
+
+
+
 .faq {
     max-width: var(--max-width);
     padding-block: 3rem;
     margin-inline: auto;
     text-align: left;
+    gap: 0;
 }
 
 .faq details {
@@ -11,4 +32,15 @@
 
 .faq summary {
     font-weight: 700;
+    cursor: pointer;
 }
+
+.faq h2 {
+    margin-block-end: 2rem;
+}
+
+@media (min-width: 768px){
+    .faq {
+      gap: 2rem;
+    }
+  }

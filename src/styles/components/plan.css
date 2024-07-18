@@ -3,7 +3,7 @@
     padding: 1rem;
     border-radius: 1rem;
     background-color: #0000000f;
-    box-shadow: 0 0 1rem #00000033;
+    box-shadow: 0 0 1rem #ffffff6b;
     margin-top: 3rem;
     overflow: hidden;
 }
@@ -20,13 +20,14 @@
 
 .plan--highlight {
     border-color: black;
+    color: var(--color-text-alt);
     margin-top: 2rem;
-    background: url(../../images/photo_example_3.jpg) no-repeat center center;
+    background-image: url(../../images/photo_example_3.jpg);
     position: relative;
 }
 
 .plan--highlight .cover {
     position: absolute;
     inset: 0;
-    background-color: #ffffff66;
+    background-color: #ffffffcc;
 }
