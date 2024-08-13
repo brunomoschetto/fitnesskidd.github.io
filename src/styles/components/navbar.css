@@ -1,0 +1,51 @@
+.navigation {
+  margin: 0;
+  background: var(--color-background);
+  position: fixed; /* Agregado para que la barra sea fija */
+  width: 100%; /* Ancho del 100% para ocupar toda la pantalla */
+  top: 0; /* Coloca la barra en la parte superior */
+  z-index: 1000; /* Asegura que la barra esté sobre otros elementos */
+}
+
+.navigation-list {
+  display: none;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  list-style: none;
+  flex-direction: column;
+}
+
+.navigation:hover .navigation-list {
+  display: flex;
+}
+
+.navigation a,
+.navigation-toggle {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: var(--color-text);
+}
+
+.navigation a:hover {
+  background: var(--color-hover);
+}
+
+.navigation img {
+  margin-right: auto; /* Empuja el logo hacia la esquina superior izquierda */
+  margin-left: 20px; /* Espacio entre el logo y los elementos de navegación */
+  max-height: 100%; /* Ajusta la altura máxima de la imagen */
+  max-width: 100%; /* Ajusta el ancho máximo de la imagen */
+}
+
+@media (min-width: 768px){
+  .navigation-list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navigation-toggle {
+    display: none;
+  }
+
+}

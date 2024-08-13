@@ -1,0 +1,27 @@
+:root {
+  --color-primary: #ffd609;
+  --color-highlight: black;
+
+  --color-background: #000000;
+  --color-background-alt: #ffffff;
+
+  --color-text: #ffffff;
+  --color-text-alt: #000000;
+
+  --color-hover: #ffd6099f;
+  --color-hover-2: rgb(1, 1, 97);
+
+  --max-width: 1000px;
+
+  --text-size: 1.5vw;
+  --text-size-title: calc(var(--text-size) * 3);
+  --text-size-subtitle: calc(var(--text-size) * 2);
+}
+
+@media (max-width: 767px) {
+  :root {
+    --text-size: 4vw;
+    --text-size-title: calc(var(--text-size) * 3);
+    --text-size-subtitle: calc(var(--text-size) * 2);
+  }
+}

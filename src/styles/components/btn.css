@@ -1,0 +1,32 @@
+.btn {
+  background-color: var(--color-primary);
+  border-radius: 10px;
+  border: none;
+  color: var(--color-text-alt);
+  cursor: pointer;
+  display: inline-block;
+  font-size: var(--text-size);
+  font-weight: 900;
+  margin: 4px 2px; /* Margen externo */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: var(--color-hover);
+}
+
+.btn--important {
+  background-color: var(--color-highlight);
+  color: var(--color-text);
+}
+
+.btn--important:hover {
+  background-color: var(--color-hover-2);
+}
+
+.btn a {
+  text-decoration: none;
+  color: inherit;
+}
