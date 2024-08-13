@@ -18,8 +18,10 @@
   --text-size-subtitle: calc(var(--text-size) * 2);
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767px) {
   :root {
-    /* --color-primary: #08f530; */
+    --text-size: 4vw;
+    --text-size-title: calc(var(--text-size) * 3);
+    --text-size-subtitle: calc(var(--text-size) * 2);
   }
 }

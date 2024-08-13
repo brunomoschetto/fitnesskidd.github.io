@@ -1,0 +1,17 @@
+  .warning {
+    line-height: 5vw;
+    padding: 3vw;
+    gap: 2rem;
+    box-sizing: border-box;
+  }
+
+  .warning p {
+    text-align: center;
+    text-decoration: none;
+    font-size: var(--text-size);
+  }
+
+  .warning h3 {
+    font-size: var(--text-size-subtitle);
+    color: red;
+  }

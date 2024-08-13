@@ -9,8 +9,9 @@
 }
 
 .plan p {
-    line-height: 1.5;
+    line-height: 1.7;
     margin-bottom: 0.3rem;
+    font-size: var(--text-size);
 }
 
 .plan > div {
@@ -29,5 +30,5 @@
 .plan--highlight .cover {
     position: absolute;
     inset: 0;
-    background-color: #ffffffcc;
+    background-color: #ffffff5b;
 }
