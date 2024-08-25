@@ -32,10 +32,11 @@
 }
 
 .navigation img {
-  margin-right: auto; /* Empuja el logo hacia la esquina superior izquierda */
-  margin-left: 20px; /* Espacio entre el logo y los elementos de navegación */
-  max-height: 100%; /* Ajusta la altura máxima de la imagen */
-  max-width: 100%; /* Ajusta el ancho máximo de la imagen */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+  max-height: 50px; /* Ajusta este valor según sea necesario */
+  height: auto;
+  width: auto;
+  display: block;
 }
 
 @media (min-width: 768px){
@@ -46,6 +47,11 @@
 
   .navigation-toggle {
     display: none;
+  }
+  
+  .navigation img {
+    margin-left: 20px; /* Añade espacio a la izquierda del logo */
+    margin-right: auto; /* Empuja la imagen hacia la izquierda */
   }
 
 }
