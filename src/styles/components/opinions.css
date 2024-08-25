@@ -4,6 +4,7 @@
     font-weight: bold;
     margin-bottom: 1rem;
     cursor: pointer;
+     list-style: none; /* Elimina la flecha que aparece por defecto */
 }
 
 

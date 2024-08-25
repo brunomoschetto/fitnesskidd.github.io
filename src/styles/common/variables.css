@@ -1,5 +1,5 @@
 :root {
-  --color-primary: #ffd609;
+  --color-primary: #ffce01;
   --color-highlight: black;
 
   --color-background: #000000;
@@ -8,7 +8,7 @@
   --color-text: #ffffff;
   --color-text-alt: #000000;
 
-  --color-hover: #ffd6099f;
+  --color-hover: #ffcc01d2;
   --color-hover-2: rgb(1, 1, 97);
 
   --max-width: 1000px;

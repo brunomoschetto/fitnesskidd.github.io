@@ -7,15 +7,16 @@
   }
   
   #faq div h2 {
-    font-size: var(--text-size-title);
-    color: var(--color-text-alt);
+    font-size: var(--text-size-subtitle);
+    color: var(--color-text);
+    font-weight: 600;
   }
   
   #faq div h2 strong {
-    font-size: var(--text-size-title);
+    font-size: var(--text-size-subtitle);
     background-color: var(--color-primary);
+    color: var(--color-text-alt);
   }
-
 
 
 .faq {
@@ -31,12 +32,17 @@
 }
 
 .faq summary {
-    font-weight: 700;
+    font-weight: 500;
     cursor: pointer;
 }
 
 .faq h2 {
     margin-block-end: 2rem;
+}
+
+#faqs-title{
+  margin-right: 2rem;
+  padding-right: 3rem;
 }
 
 @media (min-width: 768px){
