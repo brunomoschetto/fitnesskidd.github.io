@@ -13,9 +13,9 @@
 
   --max-width: 1000px;
 
-  --text-size: 1.5vw;
-  --text-size-title: calc(var(--text-size) * 3);
-  --text-size-subtitle: calc(var(--text-size) * 2);
+  --text-size: 1.7vw;
+  --text-size-title: calc(var(--text-size) * 2.3);
+  --text-size-subtitle: calc(var(--text-size) * 1.5);
 }
 
 @media (max-width: 767px) {
