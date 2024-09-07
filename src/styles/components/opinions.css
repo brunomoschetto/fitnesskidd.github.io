@@ -1,10 +1,14 @@
-
 #opiniones_desplegable details summary {
     font-size: var(--text-size-subtitle);
     font-weight: bold;
     margin-bottom: 1rem;
     cursor: pointer;
-     list-style: none; /* Elimina la flecha que aparece por defecto */
+    list-style: none; /* Elimina la flecha que aparece por defecto */
+}
+
+#opiniones_desplegable summary {
+    position: relative;
+    z-index: 1000;
 }
 
 
@@ -14,4 +18,96 @@
     padding: 1rem;
     font-size: var(--text-size)
     line-height: 1.5;
+}
+
+/* Carrousel con Swiper */
+
+.swiper-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.swiper-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    position: relative;
+}
+  
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    margin-right: 0;
+}
+
+.swiper-slide iframe {
+    max-width: 100%;
+    height: auto; 
+}
+  
+/* Estilo para los botones de navegación */
+.swiper-button-next, 
+.swiper-button-prev {
+    color: white !important;
+    font-size: 20px; 
+}
+
+/* Asegúrate de que no haya otros estilos aplicando el color azul */
+.swiper-button-next:before,
+.swiper-button-prev:before {
+    color: white !important;
+}
+
+/* Si es necesario, ajusta el hover y estado activo */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    color: white !important;
+}
+
+  
+.swiper-pagination-bullet {
+    background: var(--color-text);
+}
+  
+.swiper-pagination-bullet-active {
+    background: var(--color-accent);
+}
+
+/* video-css */
+
+.video-container-carrousel{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container-carrousel iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* imágen en cambios físicos */
+
+#cambios-físicos {
+    background-image: url(../../images/foto_cambios_físicos.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    min-height: 600px;
+    margin-top: 60px;
 }
