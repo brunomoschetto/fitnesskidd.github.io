@@ -11,6 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zain:wght@400;700;800&display=swap" rel="stylesheet">
     <!-- Importar íconos -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </head>
 
   <body>
@@ -83,9 +87,46 @@
     <section id="opiniones_desplegable" class="block--black line--spacing">
       <details>
         <summary>Opiniones y resultados</summary>
-        <p>
-          Agregar opiniones y resultados
-        </p>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <!-- Aquí van los slides del carrusel con iframes de YouTube -->
+            <div class="swiper-slide">
+              <div class="video-container-carrousel">
+                <iframe id="youtube-video" width="560" height="315"
+                  src="https://www.youtube.com/embed/eMjyvIQbn9M" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="video-container-carrousel">
+                <iframe id="youtube-video" width="560" height="315"
+                  src="https://www.youtube.com/embed/another-video-link" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="video-container-carrousel">
+                <iframe id="youtube-video" width="560" height="315"
+                  src="https://www.youtube.com/embed/another-video-link" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+            <!-- Agrega más videos según sea necesario -->
+          </div>
+          <!-- Botones de navegación del carrusel -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <!-- Paginación opcional -->
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div id="cambios-físicos">
+          
+        </div>
+        
       </details>
     </section>
 
@@ -374,5 +415,7 @@
         </div>
       </div>
     </section>
+
+    <script src="/src/script/carrousel.js"></script>
   </body>
 </html>
