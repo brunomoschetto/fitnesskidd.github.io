@@ -11,7 +11,7 @@
   --color-hover: #ffcc01d2;
   --color-hover-2: rgb(1, 1, 97);
 
-  --max-width: 1000px;
+  --max-width: 1300px;
 
   --text-size: 1.7vw;
   --text-size-title: calc(var(--text-size) * 2.3);
