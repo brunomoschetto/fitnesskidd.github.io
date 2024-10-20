@@ -3,6 +3,18 @@
     display: flex;
     justify-content: space-around;
   }
+
+  .best-seller-badge {
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--color-primary);
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 25px;
+    font-size: 0.9em;
+}
   
   /* Estilo de las tarjetas individuales */
   .pricing-card {
@@ -17,6 +29,7 @@
     box-shadow: rgba(255, 255, 255, 0.253) 0px 8px 32px 0px;
     overflow: hidden;
     transition: transform 0.3s ease;
+    position: relative;
   }
 
   .pricing-card:hover {
@@ -24,11 +37,18 @@
     transition: transform 0.3s ease;
   }
   
+  .pricing-plan-name {
+    font-size: var(--text-size);
+    font-weight: 700;
+    margin-top: 8px;
+  }
+
   /* Estilo del título de cada tarjeta */
   .pricing-title {
-    font-size: var(--text-size);
-    font-weight: bold;
+    font-size: 1.2vw;
+    font-weight: 500;
     color: var(--color-text);
+    margin-top: 5px;
     margin-bottom: 15px;
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -85,6 +105,7 @@
     .pricing-card {
       width: 100%;
       max-width: 350px;
+      margin-bottom: 1.5rem;
     }
   }
   

@@ -40,11 +40,10 @@ body {
 #opening h1 {
   color: var(--color-primary);
   font-size: var(--text-size-title);
-  /* font-size: 3vw; 3% del ancho del navegador */
   max-width: 1000px;
   font-weight: 700;
   line-height: 1.5;
-  padding-bottom: 5vw;
+  padding-bottom: 2vw;
 }
 
 #opening p {

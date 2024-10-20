@@ -95,12 +95,13 @@
 /* imágen en cambios físicos */
 
 #cambios-físicos {
-    background-image: url(../../images/foto_cambios_físicos.jpg);
+    background-image: url(../../images/cambios_fisicos_2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
     margin: 0 auto;
+    margin-bottom: 2.5rem;
     width: 50%;
     min-height: 600px;
 }
