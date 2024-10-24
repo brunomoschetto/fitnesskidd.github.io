@@ -45,7 +45,7 @@
 
   /* Estilo del título de cada tarjeta */
   .pricing-title {
-    font-size: 1.2vw;
+    font-size: 0.7vw;
     font-weight: 500;
     color: var(--color-text);
     margin-top: 5px;
